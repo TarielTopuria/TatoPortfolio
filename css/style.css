@@ -4,7 +4,7 @@
 	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: border-box;
 	-ms-overflow-style: none;
-	scrollbar-width: none; 
+	scrollbar-width: none;
 }
 *::-webkit-scrollbar {
 	display: none;
@@ -57,7 +57,7 @@ nav ul li a:hover{
 	font-weight: bold;
 	padding: 10px 25px;
 	border-radius: 30px;
-	transition: transform .4s; 
+	transition: transform.4s; 
 }
 .btn:hover{
 	transform: scale(1.2);
@@ -181,7 +181,7 @@ button:hover{
 .title h2{
 	color: white;
 	font-size: 75px;
-	width: 1130px;
+	width: 100%;
 	margin: 30px auto;
 	text-align: center;
 }
@@ -331,4 +331,12 @@ footer p:nth-child(2){
 	color:#ffffff;
 	bottom: 35px;
 	font-size: 14px; 
+}
+
+@media only screen and (min-width: 700px)  {
+	.Person{
+	background-image: url(../img/background.png);
+	background-size: cover;
+	background-position: right;
+}
 }
